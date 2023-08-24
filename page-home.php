@@ -7,18 +7,16 @@
 get_header(); ?>
 
 
-<section id="hero">
-    <div class="container">
-        <div class="main-content">
-            <h1>Líder em Limpeza e Conservação</h1>
-            <p>Para condomínios, clínicas, salas comerciais e edifícios comerciais.</p>
-            <p>Conheça a Bandeira Serviços e profissionalize sua gestão em tempo recorde!</p>
-            <div class="btn-block">
-                <a href="" class="btn">btn</a>
-                <a href="" class="btn">btn</a>
-            </div>
-        </div>
-    </div>
-</section>
+<?php get_template_part('parts/hero'); ?>
+
+<?php get_template_part('parts/about'); ?>
+
+<?php get_template_part('parts/how-it-works'); ?>
+
+<?php get_template_part('parts/advantages'); ?> <!-- CUSTOM POST TYPE LOOP SECTION -->
+
+<?php get_template_part('parts/solutions'); ?>
+
+<?php get_template_part('parts/contact'); ?>
 
 <?php get_footer(); ?>
